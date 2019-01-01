@@ -6,35 +6,45 @@ body {
 }
 
 #A {
-    position: fixed;
     width: 337px;
     height: 600px;
     display: block;
-    margin-top: -100px;
-    margin-left: -40px;
     overflow: hidden;
+    float: left;
     /* border: solid 1px black; */
     float: left;
     /* box-shadow: 15px 15px 50px black; */
     box-sizing: border-box;
     background-image: url('images/a.png');
     background-size: contain;
-    transform: rotate(-18deg);
 }
 
 #B {
-    position: fixed;
+    float: left;
     width: 337px;
     height: 600px;
+    margin-left: 160px;
     display: block;
-    margin-top: -240px;
-    margin-left: 400px;
     overflow: hidden;
-    /* border: solid 1px black; */
-    float: left;
-    /* box-shadow: 15px 15px 50px black; */
     box-sizing: border-box;
-    background-image: url('images/a.png');
+    background-image: url('images/c.png');
     background-size: contain;
-    transform: rotate(-18deg);
+}
+
+#C {
+    float: left;
+    width: 337px;
+    height: 600px;
+    margin-left: 160px;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url('images/d.png');
+    background-size: contain;
+}
+
+#TOP {
+    position: fixed;
+    width: 100%;
+    border: solid 5px red;
 }

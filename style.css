@@ -79,15 +79,30 @@ body {
 }
 
 #TOP {
-    position: fixed;
-    width: 100%;
-    left: 40px;
-    top: -330px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    transform: scale(1.2);
 }
 
 #BOTTOM {
+    margin-top: 180px;
+    margin-right: 360px;
+    float: right;
+    box-sizing: border-box;
+    display: block;
+    width: auto;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+#MAIN {
     position: fixed;
     width: 100%;
-    bottom: -330px;
-	right: 40px;
+    margin-top: -220px;
+    margin-left: 60px;
+    transform: rotate(-17deg);
 }

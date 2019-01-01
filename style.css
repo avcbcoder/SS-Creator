@@ -44,14 +44,11 @@ body {
 }
 
 #D {
+    float: right;
     width: 337px;
     height: 600px;
     display: block;
     overflow: hidden;
-    float: left;
-    /* border: solid 1px black; */
-    float: left;
-    /* box-shadow: 15px 15px 50px black; */
     box-sizing: border-box;
     background-image: url('images/e.png');
     background-size: contain;
@@ -59,9 +56,9 @@ body {
 
 #E {
     float: right;
+    margin-right: 120px;
     width: 337px;
     height: 600px;
-    margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
@@ -71,31 +68,32 @@ body {
 
 #F {
     float: right;
+    margin-right: 120px;
     width: 337px;
     height: 600px;
-    margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/g.png');
+    background-image: url('images/i.png');
     background-size: contain;
 }
 
 #TOP {
     position: fixed;
     width: 100%;
-    margin-left: -120px;
-    margin-top: -230px;
+    left: -100px;
+    top: -230px;
     border: solid 5px red;
-    transform: scale(0.75);
+    transform: scale(0.9);
     transform: rotate(-15deg);
 }
 
 #BOTTOM {
     position: fixed;
     width: 100%;
-    margin-right: -40px;
-    margin-bottom: -30px;
+    bottom: -230px;
+	right: -100px;
     border: solid 5px red;
-    transform: scale(0.5);
+    transform: scale(0.9);
+    transform: rotate(-15deg);
 }

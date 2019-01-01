@@ -1,0 +1,40 @@
+body {
+    background-image: url('images/snap2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#A {
+    position: fixed;
+    width: 337px;
+    height: 600px;
+    display: block;
+    margin-top: -100px;
+    margin-left: -40px;
+    overflow: hidden;
+    /* border: solid 1px black; */
+    float: left;
+    /* box-shadow: 15px 15px 50px black; */
+    box-sizing: border-box;
+    background-image: url('images/a.png');
+    background-size: contain;
+    transform: rotate(-18deg);
+}
+
+#B {
+    position: fixed;
+    width: 337px;
+    height: 600px;
+    display: block;
+    margin-top: -240px;
+    margin-left: 400px;
+    overflow: hidden;
+    /* border: solid 1px black; */
+    float: left;
+    /* box-shadow: 15px 15px 50px black; */
+    box-sizing: border-box;
+    background-image: url('images/a.png');
+    background-size: contain;
+    transform: rotate(-18deg);
+}

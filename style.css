@@ -23,7 +23,7 @@ body {
     float: left;
     width: 337px;
     height: 600px;
-    margin-left: 160px;
+    margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ body {
     float: left;
     width: 337px;
     height: 600px;
-    margin-left: 160px;
+    margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
@@ -43,8 +43,59 @@ body {
     background-size: contain;
 }
 
+#D {
+    width: 337px;
+    height: 600px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    /* border: solid 1px black; */
+    float: left;
+    /* box-shadow: 15px 15px 50px black; */
+    box-sizing: border-box;
+    background-image: url('images/e.png');
+    background-size: contain;
+}
+
+#E {
+    float: right;
+    width: 337px;
+    height: 600px;
+    margin-left: 120px;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url('images/f.png');
+    background-size: contain;
+}
+
+#F {
+    float: right;
+    width: 337px;
+    height: 600px;
+    margin-left: 120px;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image: url('images/g.png');
+    background-size: contain;
+}
+
 #TOP {
     position: fixed;
     width: 100%;
+    margin-left: -120px;
+    margin-top: -230px;
     border: solid 5px red;
+    transform: scale(0.75);
+    transform: rotate(-15deg);
+}
+
+#BOTTOM {
+    position: fixed;
+    width: 100%;
+    margin-right: -40px;
+    margin-bottom: -30px;
+    border: solid 5px red;
+    transform: scale(0.5);
 }

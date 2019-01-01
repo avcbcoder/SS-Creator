@@ -81,19 +81,13 @@ body {
 #TOP {
     position: fixed;
     width: 100%;
-    left: -100px;
-    top: -230px;
-    border: solid 5px red;
-    transform: scale(0.9);
-    transform: rotate(-15deg);
+    left: 40px;
+    top: -330px;
 }
 
 #BOTTOM {
     position: fixed;
     width: 100%;
-    bottom: -230px;
-	right: -100px;
-    border: solid 5px red;
-    transform: scale(0.9);
-    transform: rotate(-15deg);
+    bottom: -330px;
+	right: 40px;
 }

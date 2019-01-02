@@ -1,8 +1,16 @@
 body {
-    background-image: url('images/snap2.jpg');
+    /* background-image: url('images/snap2.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: auto;
+}
+
+#bkg {
+    position: fixed;
+    z-index: -5;
+    height: 100vh;
+    width: 100%;
 }
 
 #A {
@@ -111,7 +119,7 @@ body {
     transform: rotate(-17deg);
 }
 
-#capture{
+#capture {
     width: 150px;
     height: auto;
     box-sizing: border-box;
@@ -121,7 +129,7 @@ body {
     right: 10px;
     opacity: 0.95;
     border-radius: 20px;
-    background-color:#ff00ff;
+    background-color: #ff00ff;
     border: solid 5px wheat;
     padding-left: 30px;
     font-size: 28px;

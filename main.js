@@ -37,3 +37,45 @@ window.onload = function () {
             })
         });
 }
+
+function ss() {
+    html2canvas(document.body, {
+        onrendered: function (canvas) {
+            var imageData = canvas.toDataURL("image/jpeg");
+            console.log(imageData)
+            $.ajax({
+                url: 'save.php',
+                type: 'post',
+                dataType: 'text',
+                data: {
+                    base64data: imageData
+                }
+            });
+        }
+    });
+}
+
+function mphp() {
+    html2canvas(document.body, {
+        dpi:192,
+        onrendered: function (canvas) {
+            // var imageData = canvas.toDataURL("image/jpeg");
+            $("#blank").attr('href',canvas.toDataURL("image/png"));
+            $("#blank").attr('download','cap.png');
+            $("#blank").click();
+            console.log(canvas.toDataURL("image/png"));
+        }
+    });
+}
+
+function getScreen() {
+    html2canvas(document.body, {
+        background:'#ffffff',
+        dpi: 192,
+        onrendered: function(canvas) {
+            $("#blank").attr('href', canvas.toDataURL("image/png"));
+            $("#blank").attr('download', 'hh.png');
+            $("#blank")[0].click();
+        }
+    });
+}

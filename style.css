@@ -84,13 +84,17 @@ body {
     float: left;
     width: auto;
     margin: auto;
+    /*decrease value to move left*/
+    margin-left: 0px;
     overflow: hidden;
     transform: scale(1.2);
 }
 
 #BOTTOM {
+    /*gap from top container*/
     margin-top: 180px;
-    margin-right: 360px;
+    /*decrease value to slide right*/
+    margin-right: 330px;
     float: right;
     box-sizing: border-box;
     display: block;
@@ -105,4 +109,20 @@ body {
     margin-top: -220px;
     margin-left: 60px;
     transform: rotate(-17deg);
+}
+
+#capture{
+    width: 150px;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.95;
+    border-radius: 20px;
+    background-color:#ff00ff;
+    border: solid 5px wheat;
+    padding-left: 30px;
+    font-size: 28px;
 }

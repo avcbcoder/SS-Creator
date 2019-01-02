@@ -14,76 +14,54 @@ body {
 }
 
 #A {
-    width: 337px;
-    height: 600px;
+    float: left;
     display: block;
     overflow: hidden;
-    float: left;
-    /* border: solid 1px black; */
-    float: left;
-    /* box-shadow: 15px 15px 50px black; */
     box-sizing: border-box;
-    background-image: url('images/a.png');
-    background-size: contain;
 }
 
 #B {
     float: left;
-    width: 337px;
-    height: 600px;
     margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/c.png');
-    background-size: contain;
 }
 
 #C {
     float: left;
-    width: 337px;
-    height: 600px;
     margin-left: 120px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/d.png');
-    background-size: contain;
+}
+
+#ss{
+    width: 337px;
+    height: 600px;
 }
 
 #D {
     float: right;
-    width: 337px;
-    height: 600px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/e.png');
-    background-size: contain;
 }
 
 #E {
     float: right;
     margin-right: 120px;
-    width: 337px;
-    height: 600px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/f.png');
-    background-size: contain;
 }
 
 #F {
     float: right;
     margin-right: 120px;
-    width: 337px;
-    height: 600px;
     display: block;
     overflow: hidden;
     box-sizing: border-box;
-    background-image: url('images/i.png');
-    background-size: contain;
 }
 
 #TOP {
@@ -95,7 +73,6 @@ body {
     /*decrease value to move left*/
     margin-left: 0px;
     overflow: hidden;
-    transform: scale(1.2);
 }
 
 #BOTTOM {
@@ -108,7 +85,6 @@ body {
     display: block;
     width: auto;
     overflow: hidden;
-    transform: scale(1.2);
 }
 
 #MAIN {
@@ -116,7 +92,7 @@ body {
     width: 100%;
     margin-top: -220px;
     margin-left: 60px;
-    transform: rotate(-17deg);
+    transform: rotate(-15deg);
 }
 
 #capture {
@@ -134,3 +110,6 @@ body {
     padding-left: 30px;
     font-size: 28px;
 }
+
+/* transform: rotate(-17deg); 
+transform: scale(1.2); */

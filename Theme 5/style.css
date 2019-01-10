@@ -1,0 +1,44 @@
+body {
+    /* background-image: url('images/snap2.jpg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+#bkg {
+    position: fixed;
+    z-index: -5;
+    height: 100vh;
+    width: 100%;
+}
+
+.pseudoBody{
+    background: #29CC9D;
+    background: -moz-linear-gradient(top, #00ACC2 0%, #29CC9D 100%);
+    background: -webkit-linear-gradient(top, #00ACC2 0%, #29CC9D 100%);
+    background: linear-gradient(top, #00ACC2 0%, #29CC9D 100%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ss{
+    width: 337px;
+    height: 600px;
+    box-shadow: -25px 25px 70px black;
+}
+
+.wrapper{
+    transform: rotate(-25deg) skew(25deg) scale(.8);
+    position: relative;
+}
+
+.wrapper img {
+    position: absolute;
+    width: 100%;
+}

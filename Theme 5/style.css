@@ -15,9 +15,9 @@ body {
 
 .pseudoBody {
     background: #29CC9D;
-    background: -moz-radial-gradient(green, yellow);
+    background: -moz-radial-gradient(circle, #FFFFFF, #A6A6A6);
     background: -webkit-radial-gradient(circle, #FFFFFF, #A6A6A6);
-    /* background: linear-radial-gradient(green,yellow); */
+    background: radial-gradient(circle, #FFFFFF, #A6A6A6);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -71,7 +71,26 @@ body {
 .box-center {
     z-index: 2;
     position: absolute;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+    width: 636px;
+    height: 636px;
+}
+
+/**
+* scaling centre box by 1.2
+* multiplying width,height, left&top gap .... all by scaling factor
+*/
+
+.box-center .image1 {
+    width: 636px;
+    height: 636px;
+}
+
+.box-center .image2 {
+    width: 256px;
+    height: 456px;
+    top: 86px;
+    left: 189px;
 }
 
 .box-right {

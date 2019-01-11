@@ -1,0 +1,46 @@
+body {
+    /* background-image: url('images/snap2.jpg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.ss {
+    width: 276px;
+    height: 494px;
+    border: 1px solid black;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 749px;
+}
+
+.image2 {
+    position: absolute;
+    top: 116px;
+    left: 234px;
+}
+
+.box-center {
+    z-index: 2;
+    position: absolute;
+}

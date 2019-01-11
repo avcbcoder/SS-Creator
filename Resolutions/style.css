@@ -15,8 +15,8 @@ body {
 }
 
 .ss {
-    width: 276px;
-    height: 494px;
+    width: 270px;
+    height: 474px;
     border: 1px solid black;
 }
 
@@ -31,13 +31,14 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    width: 749px;
+    width: 700px;
+    height:740px;
 }
 
 .image2 {
     position: absolute;
-    top: 116px;
-    left: 234px;
+    top: 130px;
+    left: 214px;
 }
 
 .box-center {

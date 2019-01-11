@@ -18,7 +18,14 @@ function ss () {
  */
 
 /**
- * pixel-blue -> 
+ * nexus4 -> 
+ * skin : 700w 740h
+ * ss : 270w 474h
+ * d : 130t, 214l
+ */
+
+/**
+ * pixel-blue,black,silver -> 
  * skin : 749w
  * ss : 276w 494h
  * d : 116t, 234l
